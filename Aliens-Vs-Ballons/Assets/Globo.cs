@@ -23,7 +23,6 @@ public class Globo : MonoBehaviour
     {
         
         anim = this.GetComponent<Animator>();
-        Debug.Log(anim);
         anim.enabled = false;
         
         GetComponent<Transform>().position = new Vector3(posicionX, posicionY, 0);
